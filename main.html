@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script type="text/javascript" language="JavaScript" src="main.js"></script>
+		<style>
+			.td_b{
+				border-top:solid 1px black;
+				text-align:right;
+			}
+		</style>
+		<title>
+			Quark Composition
+		</title>
+	</head>
+	<body>
+		<p style="text-align:center;text-decoration:underline;">Quark Composition</p>
+		<table id="main_flow">
+			<tbody>
+				<tr>
+					<td>Mass (A): </td>
+					<td><input type="text" id="q_A"></td>
+				</tr>
+				<tr>
+					<td>Atomic Number (Z): </td>
+					<td><input type="text" id="q_Z"></td>
+				</tr>
+				<tr id="r_P">
+					<td>Protons: </td>
+					<td id="dP"></td>
+					<td>q<sub>u</u>: </td>
+					<td id="dP_qu"></td>
+					<td>q<sub>d</u>: </td>
+					<td id="dP_qd"></td>
+				</tr>
+				<tr id="r_N">
+					<td>Neutrons: </td>
+					<td id="dN"></td>
+					<td>q<sub>u</u>: </td>
+					<td id="dN_qu"></td>
+					<td>q<sub>d</u>: </td>
+					<td id="dN_qd"></td>
+				</tr>
+				<tr id="r_T">
+					<td></td>
+					<td></td>
+					<td>Total: </td>
+					<td id="dT_qu"></td>
+					<td></td>
+					<td id="dT_qd"></td>
+				</tr>
+			</tbody>
+		</table>
+		<button id="h_q_calc">Calculate</button>
+	</body>
+</html>
